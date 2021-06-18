@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html>
+  <meta lang="en-us">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="convertionpage.css">
+    
+<head>
+
+<title>Fahrenheit to Celcius converter</title>
+  <h1><u>&#8457; to &#8451;  &nbsp; Convertion</u></h1>
+<br>
+   
+<script>
+ 
+function ftoc(f)
+{ 
+  f=document.getElementById("f").value;
+  let x = ((f - 32) * 5) / 9;
+  let y=eval(x);
+  document.getElementById("c").value=y
+}
+</script>
+</head>
+<body>
+ 
+    <div class="one">
+    <h3><label for="f">Enter Temperature in Fahrenheit:</label><br>
+  <input type="number" id="f" name="f"/> &#8457;<h3>
+    </div><br>
+      
+    <div class="two">
+  <button type="button" id="convert" onclick="ftoc('f')">Convert</button>
+  <br></div><br>
+    
+  <div class="three">
+  <h3><label for="c">Temperature in Celcius:</label><br>
+  <input type="number" id="c" name="c"/> &#8451;</h3>
+  </div>
+  
+  
+</body>
+</html>
