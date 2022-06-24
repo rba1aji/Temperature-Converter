@@ -1,5 +1,5 @@
 # Temperature-Converter
-My first website with HTML, CSS and Java Script 
+My first website with pure HTML, CSS and Java Script 
 <br/>
 <h3>Purpose:</h3> can be used to convert or change the unit of temperature. 
 <br/>
